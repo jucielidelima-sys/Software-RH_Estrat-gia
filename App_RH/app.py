@@ -127,4 +127,4 @@ with g6:
 with st.expander("Mérito, tempo de casa e headcount"):
     st.dataframe(av, use_container_width=True, hide_index=True)
 
-st.info("Além desta tela interativa, o menu lateral continua com páginas separadas para cargos, famílias, skills, radar/PDI, exportações e base de dados.")
+
