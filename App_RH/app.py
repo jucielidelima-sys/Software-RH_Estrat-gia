@@ -12,7 +12,7 @@ with c2:
     st.markdown("""
     <div class="hero-panel">
         <div class="hero-title">RH Estratégico Industrial 4.0</div>
-        <p class="hero-sub">Versão limpa com páginas de nome único para evitar conflito de rota no Streamlit.</p>
+        <p class="hero-sub"></p>
     </div>
     """, unsafe_allow_html=True)
 k1, k2, k3, k4, k5 = st.columns(5)
