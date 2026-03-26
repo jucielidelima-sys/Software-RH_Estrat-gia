@@ -15,7 +15,7 @@ with top2:
     st.markdown("""
     <div class="hero-panel">
         <div class="hero-title">RH Estratégico Industrial 4.0</div>
-        <p class="hero-sub">Tela inicial mais interativa com meritocracia, tempo de casa, headcount por sexo e matriz de competências.</p>
+        <p class="hero-sub"></p>
     </div>
     """, unsafe_allow_html=True)
 
