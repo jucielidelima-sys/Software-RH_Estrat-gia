@@ -15,7 +15,7 @@ with top2:
     st.markdown("""
     <div class="hero-panel">
         <div class="hero-title">RH Estratégico Industrial 4.0</div>
-        <p class="hero-sub"></p>
+        <p class="hero-sub">Tela inicial mais interativa com meritocracia, tempo de casa, headcount por sexo e matriz de competências.</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -124,7 +124,7 @@ with g6:
     </div>
     """, unsafe_allow_html=True)
 
-with st.expander( Base de avaliações de mérito, tempo de casa e headcount):
+with st.expander("Ver base de avaliações de mérito, tempo de casa e headcount"):
     st.dataframe(av, use_container_width=True, hide_index=True)
 
 st.info("Além desta tela interativa, o menu lateral continua com páginas separadas para cargos, famílias, skills, radar/PDI, exportações e base de dados.")
