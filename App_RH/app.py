@@ -38,7 +38,7 @@ with c_filtro1:
 with c_filtro2:
     sexo_view = st.selectbox("Sexo", ["Todos"] + sorted(avaliacoes_df["Sexo"].dropna().astype(str).unique().tolist()))
 with c_filtro3:
-    cargo_view = st.selectbox("Cargo na visão do app", ["Todos"] + sorted(avaliacoes_df["Cargo"].dropna().astype(str).unique().tolist()))
+    cargo_view = st.selectbox("Cargo na visão do APP", ["Todos"] + sorted(avaliacoes_df["Cargo"].dropna().astype(str).unique().tolist()))
 
 av = avaliacoes_df.copy()
 if area_merito != "Todas":
