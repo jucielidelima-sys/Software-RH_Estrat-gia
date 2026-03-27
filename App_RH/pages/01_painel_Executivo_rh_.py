@@ -2,7 +2,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 from utils import sidebar_global
-st.set_page_config(page_title="Painel Executivo RH Unique", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Painel Executivo RH ", page_icon="📊", layout="wide")
 cargos_df, maturidade_df, skills_df, pdi_df, avaliacoes_df, filtro, cargo_selecionado = sidebar_global()
 st.title("📊 Painel Executivo RH")
 c1, c2 = st.columns([1.25, 1])
