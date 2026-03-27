@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from utils import sidebar_global, formatar_moeda, carregar_logo
 
-st.set_page_config(page_title="Home RH Industrial 4.0", page_icon="🏭", layout="wide")
+st.set_page_config(page_title="Home RH Industria 4.0", page_icon="🏭", layout="wide")
 cargos_df, maturidade_df, skills_df, pdi_df, avaliacoes_df, filtro, cargo_selecionado = sidebar_global()
 logo_path = carregar_logo()
 
@@ -14,7 +14,7 @@ with top1:
 with top2:
     st.markdown("""
     <div class="hero-panel">
-        <div class="hero-title">RH Estratégico Industrial 4.0</div>
+        <div class="hero-title">RH Estratégico Industria 4.0</div>
         <p class="hero-sub"></p>
     </div>
     """, unsafe_allow_html=True)
