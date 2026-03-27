@@ -31,7 +31,7 @@ k3.metric("Headcount", headcount)
 k4.metric("Salário Médio", formatar_moeda(salario_medio))
 k5.metric("Meritocracia Média", f"{merit_media:.1f}")
 
-st.markdown("### Painel interativo do app")
+st.markdown("### Painel interativo do APP")
 c_filtro1, c_filtro2, c_filtro3 = st.columns(3)
 with c_filtro1:
     area_merito = st.selectbox("Área para análise rápida", ["Todas"] + sorted(avaliacoes_df["Área"].dropna().astype(str).unique().tolist()))
